@@ -1,3 +1,68 @@
 /* ==========================================================================
    Site styles
    ========================================================================== */
+
+ body {
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 300;
+ }
+.container {
+	max-width: 720px;
+	margin: 0px auto 0px auto;
+}
+.header {
+	background-color: $gray-dark;
+	height: 100%;
+	padding: 100px;
+}
+#readingTime {
+	color: $white;
+	position: relative;
+	float: right;
+	padding: 30px;
+}
+h1 {
+	color: $white;
+	font-family: 'Lato', sans-serif;
+}
+h4 {
+	color: $gray-medium;
+	font-family: 'Vollkorn', serif;
+}
+.center {
+	text-align: center;
+}
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	line-height: 1.5;
+}
+.tweet {
+	width: 139px;
+	margin: 0px auto;
+}
+
+.buttons {
+	width: 300px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.footer {
+	background-color: $gray-light;
+	height: 100%;
+	padding: 40px;
+	margin-top: 50px;
+}
+.footer a {
+	padding: 20px;
+}
+a{
+	color: $gray-dark;
+	text-decoration: none;
+}
+a:hover {
+	color: $blue;
+}

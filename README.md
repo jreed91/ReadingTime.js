@@ -1,68 +1,29 @@
-# MNML
+# ReadingTime.js
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
+View the project page at [http://jreed91.github.io/ReadingTime](http://jreed91.github.io/ReadingTime "ReadingTime.js")
 
-MNML is a starting point for responsive HTML5 SASS projects.
-Focused on mobile readability.
+ReadingTime.js is a simple script to add the estimated reading time to your blog posts. Just like Medium does.
 
 # Getting started
 
-* Create a new repo for your project on Github
-* In terminal run
+* Download the zip file
+* Add the readingTime.js file to your document
 ```bash
-    git clone git@github.com:mrmrs/mnml.git [yourNewRepoName]
-    cd [yourNewRepoName]
-    git remote rm origin
-    git remote add origin git@github.com:[yourUserName]/[yourNewRepoName].git
-    git remote -v
+    <script type="text/javascript" src="js/readingTime.js"></script>
 ```
 
-* git remote -v will allow you to check that you have changed the remote origin correctly. The output should look like:
+* Add the html tag where you want the estimated reading time to be outputted
 ```bash
-    origin git@github.com:[yourUserName]/[yourNewRepoName].git (fetch)
-    origin  git@github.com:[yourUserName]/[yourNewRepoName].git (push)
+    <div id="readingTime"></div>
 ```
 
-* Once you add & commit files you are ready to publish run:
+* The script will grad all the words contained in the div named content. This can be edited here:
 ```bash
-git push -u origin master
+var text = $('#content').text();
 ```
-
-# What is it?
-
-Mostly a bare-bones html5 template with some basic css I start most projects
-with.
-
-## Directory structure
-```
-    mnml/
-        ├── README.md
-        ├── css
-        │   └── i.css                 (2 kb minified - 1.2kb gzipped)
-        ├── index.html                (386 bytes)
-        └── sass                      CSS source
-            ├── _normalize.scss
-            ├── _grid.scss
-            ├── _type.scss
-            ├── _styles.scss
-            └── i.scss
-```
-
-## Rake tasks
-
-Start sass development - watches the sass folder and updates css/i.css with every file change
-```bash
-rake sass
-```
-
-Start sass - output is minified to css/i.css
-```bash
-rake minify
-```
-
 # Author
 
-[MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
+[jreed91](http://reeddesigns.me "Jacob Reed")
 
 # License
 
