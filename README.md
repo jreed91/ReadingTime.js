@@ -1,6 +1,6 @@
 # ReadingTime.js
 
-View the project page at [http://jreed91.github.io/ReadingTime](http://jreed91.github.io/ReadingTime "ReadingTime.js")
+View the project page at [http://jreed91.github.io/ReadingTime](http://jreed91.github.io/ReadingTime.js "ReadingTime.js")
 
 ReadingTime.js is a simple script to add the estimated reading time to your blog posts. Just like Medium does.
 
